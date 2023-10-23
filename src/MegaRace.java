@@ -100,6 +100,7 @@ public class MegaRace {
             if (v.getDistanceTraveled() >= DISTANCE_TO_FINISH){
                 System.out.println(v.getBrand() + " WINS!");
                 return v;
+
             }
         }
         return null;
